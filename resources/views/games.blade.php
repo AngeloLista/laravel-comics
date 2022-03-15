@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Characters')
+@section('title', 'Games')
 
 @section('content')
     <h1>GAMES</h1>
