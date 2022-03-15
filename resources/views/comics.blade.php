@@ -25,4 +25,6 @@
         @endforeach
         <div id="load-more">load more</div>
       </div>
+    @include('includes.sub_main_menu')
+
 @endsection

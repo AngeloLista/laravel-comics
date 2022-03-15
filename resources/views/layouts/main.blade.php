@@ -16,7 +16,6 @@
     </main>
     
     
-    @include('includes.sub_main_menu')
     @include('includes.footer')
     
     <script src="{{ asset('js/app.js') }}"></script>
