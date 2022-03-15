@@ -5,13 +5,13 @@
       <nav>
         <ul>
           <li>
-            <a href="#">CHARACTERS</a>
+            <a href="{{ route('characters') }}">CHARACTERS</a>
           </li>
           <li>
-            <a href="#">COMICS</a>
+            <a href="{{ route('comics') }}">COMICS</a>
           </li>
           <li>
-            <a href="#">MOVIES</a>
+            <a href="{{ route('movies') }}">MOVIES</a>
           </li>
           <li>
             <a href="#">TV</a>
