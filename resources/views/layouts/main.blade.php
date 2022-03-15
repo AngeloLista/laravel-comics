@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}">
 </head>
 <body>
     @include('includes.header')
-
+    
     <main>
-        adsfadfs
+        CONTENUTO
     </main>
     
+    
+    @include('includes.footer')
+    
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

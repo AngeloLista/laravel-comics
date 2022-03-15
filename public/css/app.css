@@ -9,36 +9,29 @@ header {
   font-weight: 700;
   height: 130px;
 }
-
 header img {
   width: 85px;
 }
-
 header nav {
   height: 100%;
 }
-
 header nav ul {
   height: 100%;
   display: flex;
   align-items: center;
 }
-
 header nav ul li {
   display: inline-block;
 }
-
 header nav ul li a {
   color: #1c1c1c;
   padding: 52px 10px;
 }
-
 header nav ul li a:hover {
   transition: ease-in-out 0.1s;
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
-
 header nav ul li a.active {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
@@ -52,6 +45,81 @@ header nav ul li a.active {
 
 .h-130 {
   height: 130px;
+}
+
+#footer-top {
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer-top nav {
+  display: flex;
+  margin: 30px 0;
+}
+#footer-top nav section {
+  width: 33.3333333333%;
+  padding-right: 50px;
+}
+#footer-top nav section h3 {
+  margin: 15px 0;
+}
+#footer-top nav section ul {
+  display: inline-block;
+  list-style-type: none;
+}
+#footer-top nav section ul li {
+  padding: 3px 0;
+}
+#footer-top nav section ul li a {
+  font-size: 0.8rem;
+  color: #bbbbbb;
+}
+#footer-top nav section ul li a:hover {
+  text-decoration: underline;
+}
+#footer-top .dc-logo-bg {
+  width: 500px;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+#footer-bottom {
+  background-color: #303030;
+}
+#footer-bottom #sign-up {
+  padding: 50px 0;
+}
+#footer-bottom #sign-up a {
+  color: white;
+  padding: 15px;
+  border: 3px solid #0282f9;
+}
+#footer-bottom #sign-up a:hover {
+  transition: 0.7s;
+  background-color: #0282f9;
+}
+#footer-bottom #socials {
+  display: flex;
+  align-items: center;
+}
+#footer-bottom #socials h3 {
+  color: #0282f9;
+  display: inline-block;
+  margin-right: 15px;
+}
+#footer-bottom #socials ul {
+  list-style-type: none;
+  display: inline-block;
+}
+#footer-bottom #socials ul li {
+  display: inline-block;
+  margin: 0 6px;
+}
+#footer-bottom #socials ul li:hover {
+  transform: scale(1.1);
+  filter: brightness(1.75);
 }
 
 .container {
@@ -90,4 +158,3 @@ body {
   font-family: "Encode Sans Condensed", sans-serif;
   margin-top: 130px;
 }
-
