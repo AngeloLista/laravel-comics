@@ -130,6 +130,66 @@ header nav ul li a.active {
   height: 315px;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+main #load-more {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 15px auto;
+  cursor: pointer;
+}
+main #load-more:active {
+  background-color: #016bce;
+}
+main .title {
+  color: white;
+  margin-top: -1.6rem;
+}
+main .title h2 {
+  background-color: #0282f9;
+  display: inline-block;
+  padding: 10px 30px;
+}
+main p {
+  color: white;
+  line-height: 130px;
+  font-size: 1.5rem;
+}
+main #products {
+  padding: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  width: 16.6666666667%;
+  margin: 30px 0;
+}
+.card a {
+  color: white;
+}
+.card a .card-thumbnail {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.card a span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;

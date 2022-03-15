@@ -1,6 +1,69 @@
+// Jumbotron
 .jumbotron {
     background-image: url("../images/jumbotron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 315px;
+  }
+
+// Main
+main {
+    background-color: $secondary_color;
+    #load-more {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: $main_color;
+      text-transform: uppercase;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 15px auto;
+      cursor: pointer;
+      &:active {
+        background-color: #016bce;
+      }
+    }
+    .title {
+      color: white;
+      margin-top: -1.6rem;
+      h2 {
+        background-color: $main_color;
+        display: inline-block;
+        padding: 10px 30px;
+      }
+    }
+    p {
+      color: white;
+      line-height: 130px;
+      font-size: 1.5rem;
+    }
+    #products {
+      padding: 25px 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+// ProductCard
+.card {
+    display: inline-block;
+    width: calc(100% / 6);
+    margin: 30px 0;
+    a {
+      color: white;
+  
+      .card-thumbnail {
+        height: 170px;
+        width: 170px;
+        margin-bottom: 15px;
+  
+        object-fit: cover;
+        object-position: top;
+      }
+      span {
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+      }
+    }
   }
