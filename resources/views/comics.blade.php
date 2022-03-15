@@ -3,5 +3,5 @@
 @section('title', 'Welcome to DC')
 
 @section('content')
-    <h1>COMICS</h1>
+    <h1>CURRENT SERIES</h1>
 @endsection
