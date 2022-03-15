@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+    font-weight: 700;
+    height: 130px;
+    img {
+      width: 85px;
+    }
+    nav {
+      height: 100%;
+      ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        li {
+          display: inline-block;
+          a {
+            color: $secondary_color;
+            padding: 52px 10px;
+            &:hover {
+              transition: ease-in-out 0.1s;
+              color: $main_color;
+              border-bottom: 5px solid $main_color;
+            }
+            &.active {
+              color: $main_color;
+              border-bottom: 5px solid $main_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .d-flex-j-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .h-130 {
+    height: 130px;
+  }
