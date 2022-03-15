@@ -1,0 +1,29 @@
+#sub-main-menu {
+    color: white;
+    background-color: $main_color;
+    padding: 30px 0;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      li {
+        display: flex;
+        align-items: center;
+        a {
+          display: flex;
+          align-items: center;
+          color: white;
+          img {
+            height: 50px;
+            margin-right: 15px;
+          }
+          .svg-nav {
+            height: 35px;
+          }
+          span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }

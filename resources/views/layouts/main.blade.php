@@ -7,7 +7,6 @@
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="icon" href="{{ asset('images/favicon.ico') }}">
-    @yield('styles')
 </head>
 <body>
     @include('includes.header')
@@ -17,6 +16,7 @@
     </main>
     
     
+    @include('includes.sub_main_menu')
     @include('includes.footer')
     
     <script src="{{ asset('js/app.js') }}"></script>
