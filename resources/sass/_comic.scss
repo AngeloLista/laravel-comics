@@ -8,12 +8,12 @@
         margin-top: -220px;
         .product-type-badge,
         .view-gallery-badge {
-            position: absolute;
-            
+            position: absolute;            
             background-color: #00a9d9;
             color: white;
             font-size: 15px;
             padding: 1.5px 5px;
+            cursor: pointer;
         }
         .product-type-badge{
             top: 0;
@@ -64,6 +64,10 @@
                 color: white;
                 text-align: center;
                 padding: 15px 10px;
+                span,
+                i {
+                    cursor: pointer;
+                }
             }
         }
         p {
@@ -113,7 +117,7 @@
             font-weight: 500;
             color: #000;
             a {
-                color: $main_color;
+                color: #00a9d9;
             }
     }
     }

@@ -14,11 +14,11 @@
       </div>
       <div class="container" id="products">
         {{-- ProductCard --}}
-        @foreach ($comics as $comic)
+        @foreach ($comics as $index => $comic)
             
         <div class="card">
-            <a href="#">
-                <img class="card-thumbnail" src="{{ $comic['thumb'] }}" alt="" />
+            <a href="{{ route("comic", ['id' => $index]) }}">
+                <img class="card-thumbnail" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" />
                 <span>{{ $comic['series'] }}</span>
             </a>
         </div>

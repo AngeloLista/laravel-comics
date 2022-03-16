@@ -21,10 +21,12 @@ Route::get('/', function () {
 })->name('comics');
 
 // Singolo Fumetto
-Route::get('/comic', function () {
+Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
 
-    return view('comic', compact('comics'));
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
 })->name('comic');
 
 Route::get('/characters', function () {
