@@ -1,0 +1,29 @@
+#comic-poster-container {
+    background-color: $main_color;
+    height: 100px;
+    figure {
+        border: 1px solid white;
+        display: inline-block;
+        position: relative;
+        margin-top: -220px;
+        .product-type-badge,
+        .view-gallery-badge {
+            position: absolute;
+            
+            background-color: #00a9d9;
+            color: white;
+            font-size: 15px;
+            padding: 1.5px 5px;
+        }
+        .product-type-badge{
+            top: 0;
+            left: 0;
+        }
+        .view-gallery-badge {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    }
+}

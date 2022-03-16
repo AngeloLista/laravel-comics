@@ -13,11 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Lista Fumetti
 Route::get('/', function () {
     $comics = config('comics');
 
     return view('comics', compact('comics'));
 })->name('comics');
+
+// Singolo Fumetto
+Route::get('/comic', function () {
+    $comics = config('comics');
+
+    return view('comic', compact('comics'));
+})->name('comic');
 
 Route::get('/characters', function () {
     return view('characters');
