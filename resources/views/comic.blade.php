@@ -41,5 +41,71 @@
             </div>
         </div>
     </section>
+
+    {{-- Talent and Specs --}}
+    <section id="talent-and-specs">
+        <div class="container d-flex">
+            {{-- Talent --}}
+            <div class="talent">
+                <h3>Talent</h3>
+                <div class="info-section">
+                    {{-- Art by --}}
+                    <div class="info-name">Art by:</div>
+                    <div class="info-details">
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>
+                    </div>
+                </div>
+                <div class="info-section">
+                    {{-- Written by --}}
+                    <div class="info-name">Written by:</div>
+                    <div class="info-details">
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>,
+                        <a href="#">Jose lusi garcia</a>
+                    </div>
+                </div>
+            </div>
+            {{-- Specs --}}
+            <div class="specs">
+                <h3>Specs</h3>
+                <div class="info-section">
+                    {{-- Series --}}
+                    <div class="info-name">Series:</div>
+                    <div class="info-details">
+                        <a href="#">ACTION COMICS</a>
+                    </div>
+                </div>
+                <div class="info-section">
+                    {{-- Price --}}
+                    <div class="info-name">U.S. Price:</div>
+                    <div class="info-details">
+                        $19.99
+                    </div>
+                </div>
+                <div class="info-section">
+                    {{-- Sales --}}
+                    <div class="info-name">On Sale Date:</div>
+                    <div class="info-details">
+                        0ct 02 2018
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
     
 @endsection
