@@ -105,7 +105,30 @@
                 </div>
             
             </div>
+
+            
         </div>
     </section>
-    
+
+    {{-- Shop Links Section --}}
+    <section id="shop-banner" class="d-flex align-items-center">
+        <div class="container d-flex ">
+            <div class="card">
+                <a href=""><span>digital comics</span></a>
+                <div class="icons icon1"></div>
+            </div>
+            <div class="card">
+                <a href=""><span>shop dc</span></a>
+                <div class="icons icon2"></div>
+            </div>
+            <div class="card">
+                <a href=""><span>comic shop locator</span></a>
+                <div class="icons icon3"></div>
+            </div>
+            <div class="card">
+                <a href=""><span>subscriptions</span></a>
+                <div class="icons icon4"></div>
+            </div>
+        </div>
+    </section>
 @endsection

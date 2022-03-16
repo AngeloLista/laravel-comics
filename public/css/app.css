@@ -312,7 +312,8 @@ main #products {
 #talent-and-specs {
   background-color: #f6f6f6;
   color: #003f59;
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 150px;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -343,6 +344,48 @@ main #products {
 #talent-and-specs .specs {
   padding: 0 30px;
   width: 50%;
+}
+
+#shop-banner {
+  background-color: #f6f6f6;
+}
+#shop-banner .card {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  padding: 19px 15px;
+}
+#shop-banner .card a {
+  color: #999c9e;
+}
+#shop-banner .card span {
+  text-transform: uppercase;
+  margin-right: 100px;
+  font-weight: 700;
+}
+#shop-banner .card .icons {
+  display: inline-block;
+  height: 37px;
+  width: 37px;
+  background-image: url("../images/cta-icons.png");
+}
+#shop-banner .card .icon1 {
+  background-position: 0 0;
+}
+#shop-banner .card .icon2 {
+  background-position: 37px 0;
+}
+#shop-banner .card .icon3 {
+  background-position: 69px 0;
+}
+#shop-banner .card .icon4 {
+  height: 37px;
+  width: 39px;
+  background-image: url("../images/cta-icons.png");
+  background-position: 112px 0;
 }
 
 .container {
