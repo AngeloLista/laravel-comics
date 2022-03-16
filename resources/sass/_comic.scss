@@ -27,3 +27,51 @@
         }
     }
 }
+
+#comic-description {
+    background-color: white;
+    padding: 50px 0;
+    .description {
+        width: 70%;
+        h3{
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            color: #003f59;
+        }
+        .mini-shop {
+            background-color: #55ba59;
+            display: flex;
+            color: #bcfb91;
+            border-bottom: 2px solid #317635;
+            font-weight: bold;
+            font-size: 14px;
+            .price-container{
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                border-right: 2px solid #317635;
+                padding: 15px 30px;
+                .price {
+                    letter-spacing: 1px;
+                    color: white;
+                }
+            }
+            .check-availability {
+                width: 30%;
+                text-transform: capitalize;
+                color: white;
+                text-align: center;
+                padding: 15px 10px;
+            }
+        }
+        p {
+            color: #7e7c77;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 1.5rem;
+            font-size: 16px;
+            padding: 30px 0;
+        }
+    }
+}
