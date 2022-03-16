@@ -256,6 +256,7 @@ main #products {
 }
 #comic-description .description {
   width: 70%;
+  padding: 0 30px;
 }
 #comic-description .description h3 {
   font-size: 1.7rem;
@@ -267,15 +268,15 @@ main #products {
   background-color: #55ba59;
   display: flex;
   color: #bcfb91;
-  border-bottom: 2px solid #317635;
+  border-bottom: 1px solid #317635;
   font-weight: bold;
   font-size: 14px;
 }
 #comic-description .description .mini-shop .price-container {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  border-right: 2px solid #317635;
+  border-right: 1px solid #317635;
   padding: 15px 30px;
 }
 #comic-description .description .mini-shop .price-container .price {
@@ -296,6 +297,16 @@ main #products {
   line-height: 1.5rem;
   font-size: 16px;
   padding: 30px 0;
+}
+#comic-description .advertisement {
+  padding: 7px 10px;
+  position: relative;
+}
+#comic-description .advertisement h5 {
+  color: #505a63;
+  position: absolute;
+  top: -15px;
+  right: 10px;
 }
 
 .container {
